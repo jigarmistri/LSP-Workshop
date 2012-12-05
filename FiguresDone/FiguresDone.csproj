@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D5406E90-5F76-491F-AC34-D3284111466E}</ProjectGuid>
+    <ProjectGuid>{D6D8A2D5-9BB7-4F02-BB6F-C104E5406EA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Figures</RootNamespace>
-    <AssemblyName>Figures</AssemblyName>
+    <RootNamespace>FiguresDone</RootNamespace>
+    <AssemblyName>FiguresDone</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,10 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Rectangle.cs" />
+    <Compile Include="IShape.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Square.cs" />
+    <Compile Include="Rectangle.cs" />
     <Compile Include="Tests\FiguresTest.cs" />
+    <Compile Include="Square.cs" />
+    <Compile Include="TotalCircumferenceCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
